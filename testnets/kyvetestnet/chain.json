@@ -1,13 +1,13 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "kyvetestnet",
-  "chain_id": "kaon",
+  "chain_id": "kaon-1",
   "pretty_name": "KYVE Kaon",
   "status": "live",
   "network_type": "testnet",
   "bech32_prefix": "kyve",
   "daemon_name": "kyved",
-  "node_home": "$HOME/.kyve",
+  "node_home": "$HOME/.kaon-1",
   "key_algos": [
     "secp256k1"
   ],
@@ -16,7 +16,7 @@
     "fee_tokens": [
       {
         "denom": "tkyve",
-        "fixed_min_gas_price": 0
+        "fixed_min_gas_price": 0.02
       }
     ]
   },
